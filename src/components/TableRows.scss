@@ -1,0 +1,11 @@
+@import "./../variables.scss";
+
+.Table__Row {
+  tr:nth-child(even) {
+    background-color: map-get($color-background, primary);
+  }
+
+  td {
+    color: map-get($color-copy, primary);
+  }
+}

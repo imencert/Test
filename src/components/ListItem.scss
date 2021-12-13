@@ -1,0 +1,10 @@
+@import "./../variables.scss";
+
+.ListItem {
+  margin-bottom: 0.25rem;
+
+  &__Label {
+    color: map-get($color-label, primary);
+    font-weight: 700;
+  }
+}

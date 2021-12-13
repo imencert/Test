@@ -1,0 +1,36 @@
+/*Colours*/
+$color: (
+  alto: #dddddd,
+  cello: #1f355e,
+  cerulean: #009fe2,
+  linkwater: #e3eff8,
+  tradewind: #5cb9ac,
+  white: #fff
+);
+
+/*Colour Categories*/
+$color-background: (
+  primary: map-get($color, linkwater)
+);
+
+$color-border: (
+  primary: map-get($color, alto)
+);
+
+$color-button: (
+  primary: map-get($color, tradewind),
+  secondary: map-get($color, cerulean)
+);
+
+$color-copy: (
+  primary: map-get($color, cello)
+);
+
+$color-heading: (
+  primary: map-get($color, tradewind)
+);
+
+$color-label: (
+  primary: map-get($color, tradewind),
+  secondary: map-get($color, white)
+);

@@ -1,0 +1,9 @@
+@import "./../variables.scss";
+
+.Button {
+  background-color: map-get($color-button, primary);
+  border: none;
+  color: map-get($color-label, secondary);
+  cursor: pointer;
+  padding: 5px;
+}

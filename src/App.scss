@@ -1,0 +1,29 @@
+@import "./variables.scss";
+
+.App {
+  margin: 0 auto;
+  max-width: 1200px;
+  min-width: 320px;
+  padding: 2rem 0;
+  width: 100%;
+
+  &__Title {
+    color: map-get($color-heading, primary);
+    margin-bottom: 1.5rem;
+  }
+
+  & > div {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5rem;
+  }
+
+  &__Button {
+    margin-top: 1.3rem;
+    text-align: center;
+  }
+
+  .Button--lgd-color {
+    background-color: map-get($color-button, secondary);
+  }
+}

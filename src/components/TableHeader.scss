@@ -1,0 +1,8 @@
+@import "./../variables.scss";
+
+.Table__Header {
+  th {
+    color: map-get($color-label, primary);
+    font-weight: 700;
+  }
+}
